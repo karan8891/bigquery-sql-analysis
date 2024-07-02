@@ -63,39 +63,39 @@ This project overview provides a structured approach to performing real-time dat
 
 ---
 
-Below is a basic flow chart depicting the main stages and activities involved in the project:
-
-Start
-|
-v
-Setup BigQuery Environment
-|
-v
-Create Dataset (ecommerce_data)
-|
-v
-Create Tables (orders, customers, products)
-|
-v
-Load Data (orders.csv, customers.csv, products.csv)
-|
-v
-Perform Data Analysis
-|
-v
-- Total Sales by Product
-- Customer Signup Analysis
-- Rank Products by Sales
-- Calculate Running Total of Sales
-- Customer Purchase Frequency Quartiles
-|
-v
-Visualize Insights (Charts, Graphs)
-|
-v
-Generate Report
-|
-v
+Below is a basic flow chart depicting the main stages and activities involved in the project: </br>
+</br>
+Start</br>
+|</br>
+v</br>
+Setup BigQuery Environment</br>
+|</br>
+v</br>
+Create Dataset (ecommerce_data)</br>
+|</br>
+v</br>
+Create Tables (orders, customers, products)</br>
+|</br>
+v</br>
+Load Data (orders.csv, customers.csv, products.csv)</br>
+|</br>
+v</br>
+Perform Data Analysis</br>
+|</br>
+v</br>
+- Total Sales by Product</br>
+- Customer Signup Analysis</br>
+- Rank Products by Sales</br>
+- Calculate Running Total of Sales</br>
+- Customer Purchase Frequency Quartiles</br>
+|</br>
+v</br>
+Visualize Insights (Charts, Graphs)</br>
+|</br>
+v</br>
+Generate Report</br>
+|</br>
+v</br>
 End
 
 ---
