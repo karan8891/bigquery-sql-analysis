@@ -60,3 +60,44 @@ Perform comprehensive data analysis on a test e-commerce dataset to extract mean
 ---
 
 This project overview provides a structured approach to performing real-time data analysis on an e-commerce dataset, ensuring clarity and direction throughout the process.
+
+---
+
+Below is a basic flow chart depicting the main stages and activities involved in the project:
+
+Start
+|
+v
+Setup BigQuery Environment
+|
+v
+Create Dataset (ecommerce_data)
+|
+v
+Create Tables (orders, customers, products)
+|
+v
+Load Data (orders.csv, customers.csv, products.csv)
+|
+v
+Perform Data Analysis
+|
+v
+- Total Sales by Product
+- Customer Signup Analysis
+- Rank Products by Sales
+- Calculate Running Total of Sales
+- Customer Purchase Frequency Quartiles
+|
+v
+Visualize Insights (Charts, Graphs)
+|
+v
+Generate Report
+|
+v
+End
+
+---
+
+This flow chart provides a high-level overview of the project flow, from initial setup and data loading to performing various data analyses, visualizing insights, generating reports, and concluding the project. Each step represents a key activity or milestone in the process of analyzing the e-commerce dataset.
