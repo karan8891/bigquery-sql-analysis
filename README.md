@@ -63,41 +63,26 @@ This project overview provides a structured approach to performing real-time dat
 
 ---
 
-Below is a basic flow chart depicting the main stages and activities involved in the project: </br>
-</br>
-Start</br>
-|</br>
-v</br>
-Setup BigQuery Environment</br>
-|</br>
-v</br>
-Create Dataset (ecommerce_data)</br>
-|</br>
-v</br>
-Create Tables (orders, customers, products)</br>
-|</br>
-v</br>
-Load Data (orders.csv, customers.csv, products.csv)</br>
-|</br>
-v</br>
-Perform Data Analysis</br>
-|</br>
-v</br>
-- Total Sales by Product</br>
-- Customer Signup Analysis</br>
-- Rank Products by Sales</br>
-- Calculate Running Total of Sales</br>
-- Customer Purchase Frequency Quartiles</br>
-|</br>
-v</br>
-Visualize Insights (Charts, Graphs)</br>
-|</br>
-v</br>
-Generate Report</br>
-|</br>
-v</br>
-End
+## Data Analysis Flowchart (E-commerce)
 
----
+This flowchart outlines the steps involved in performing data analysis on a sample e-commerce dataset in BigQuery:
 
-This flow chart provides a high-level overview of the project flow, from initial setup and data loading to performing various data analyses, visualizing insights, generating reports, and concluding the project. Each step represents a key activity or milestone in the process of analyzing the e-commerce dataset.
+1. **Set up BigQuery Environment:** Ensure you have a GCP project with BigQuery enabled and the necessary client libraries installed (if using code).
+2. **Load Data into BigQuery:**
+   - Create a dataset named `ecommerce_data` to organize your tables.
+   - Define the schema for each table (orders, customers, products).
+   - Load your CSV data files (orders.csv, customers.csv, products.csv) into the corresponding tables using the BigQuery UI or commands.
+3. **Perform Data Analysis using SQL Queries:** Write SQL queries to answer specific business questions about your data.
+   - Examples:
+       - Total Sales by Product
+       - Customer Signup Analysis
+4. **Analyze Results:** Interpret and draw insights from the results of your SQL queries.
+5. **Use Analytical Functions to Extract Insights (Optional):** Utilize advanced SQL functions like `ROW_NUMBER()`, `RANK()`, and `NTILE()` for deeper analysis.
+   - Examples:
+       - Rank Products by Sales
+       - Calculate Running Total of Sales
+       - Customer Purchase Frequency Quartiles
+6. **Analyze Results:** Interpret and draw insights from the results of your analytical function queries.
+7. **Visualize Insights (Optional):** Use data visualization tools to create charts and graphs that represent your findings.
+8. **Generate Report (Optional):** Combine your SQL queries, analysis results, and visualizations into a comprehensive report for business decisions.
+
